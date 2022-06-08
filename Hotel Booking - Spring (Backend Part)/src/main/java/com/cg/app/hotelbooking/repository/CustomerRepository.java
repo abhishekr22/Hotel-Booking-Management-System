@@ -1,0 +1,10 @@
+package com.cg.app.hotelbooking.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.cg.app.hotelbooking.entities.Passengers;
+
+
+public interface CustomerRepository extends CustomCustomerRepository, CrudRepository<Passengers,Integer> {
+
+}
